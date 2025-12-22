@@ -30,7 +30,7 @@ export class User {
     address: string;
 
     @Prop({ type: Boolean, enum: [true, false] })
-    active: string;
+    active: boolean;
 
     @Prop({ type: String })
     verificationCode: string;
